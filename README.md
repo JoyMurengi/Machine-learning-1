@@ -23,7 +23,7 @@ By identifying high-risk areas early, stakeholders can:
 - **Features**: 24 variables (chemical, physical, and microbial water indicators)  
 - **Target**:  
   - **Classification**: Presence/absence of disease  
-  - **Regression**: Incidence rate of disease  
+  
 
 ---
 
@@ -40,17 +40,14 @@ By identifying high-risk areas early, stakeholders can:
 - Created visualizations for insights  
 
 ### 3. Feature Engineering  
-- Built interaction features  
 - Reduced multicollinearity  
-- Selected important predictors for better model performance  
-
+  
 ### 4. Modeling  
-- **Baseline models**: Logistic Regression / Linear Regression  
+- **Baseline models**: Logistic Regression   
 - **Advanced models**: Random Forest, Gradient Boosting, XGBoost  
 
 ### 5. Evaluation  
-- **Classification**: Accuracy, Precision, Recall, F1-Score, ROC-AUC  
-- **Regression**: RMSE, MAE, R²  
+- **Classification**: Accuracy, Precision, Recall, F1-Score
 
 ### 6. Interpretation  
 - Feature importance analysis  
@@ -60,7 +57,6 @@ By identifying high-risk areas early, stakeholders can:
 
 ## Results  
 - Gradient Boosting and XGBoost outperformed baseline models.  
-- Key pollution indicators such as microbial counts and chemical concentrations were the strongest predictors of disease prevalence.  
 
 ---
 
